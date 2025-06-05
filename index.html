@@ -52,6 +52,26 @@
     a:hover {
       text-decoration: underline;
     }
+    .nav {
+      text-align: center;
+      padding: 1rem;
+      background: #343a40;
+    }
+    .nav a {
+      margin: 0 1rem;
+      color: #f8f9fa;
+      font-weight: bold;
+    }
+    .section {
+      margin-top: 2rem;
+    }
+    .section h2 {
+      margin-bottom: 0.5rem;
+      color: #007bff;
+    }
+    .section p {
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
@@ -59,15 +79,33 @@
     <h1>LocalReach</h1>
     <p>Hyperlocal Advertising That Works</p>
   </div>
-  <div class="container">
+  <div class="nav">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="container" id="about">
     <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" alt="Local Business Marketing" />
+    <h2>About Us</h2>
     <p><strong>LocalReach</strong> helps small businesses thrive by connecting them with nearby customers through data-driven, neighborhood-specific advertising campaigns.</p>
     <p>We specialize in automating local ad placements and providing actionable insights for service providers like contractors, landscapers, movers, and more. Our goal is to simplify local lead generation while improving return on ad spend.</p>
     <p>With LocalReach, your business appears where it matters most — on the devices of real neighbors looking for your services.</p>
-    <p><strong>Contact Us:</strong> <a href="mailto:hello@localreach.xyz">hello@localreach.xyz</a></p>
+  </div>
+  <div class="container section" id="services">
+    <h2>Our Services</h2>
+    <p><strong>Hyperlocal Ad Campaigns:</strong> Precision-targeted ads to users in your service area.</p>
+    <p><strong>Lead Generation:</strong> Real-time alerts and insights from neighborhood platforms.</p>
+    <p><strong>Campaign Optimization:</strong> A/B testing, analytics, and automatic budget reallocation to maximize ROI.</p>
+    <p><strong>Consulting:</strong> We help you understand your audience, their behavior, and how to connect authentically.</p>
+  </div>
+  <div class="container section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to work together? Reach out to our team:</p>
+    <p><strong>Email:</strong> <a href="mailto:lr_llc@mailfence.com">lr_llc@mailfence.com</a></p>
+    <p>We typically respond within 1–2 business days.</p>
   </div>
   <div class="footer">
-    &copy; 2025 LocalReach. All rights reserved.
+    &copy; 2025 LocalReach LLC. All rights reserved.
   </div>
 </body>
 </html>
